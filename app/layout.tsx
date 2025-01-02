@@ -22,12 +22,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  ;[1, 2, 3, 4, 5].forEach((item) => {
-    console.log(item)
-  })
-
   return (
-    <html lang='en'>
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

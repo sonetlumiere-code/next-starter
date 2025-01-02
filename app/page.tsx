@@ -1,9 +1,10 @@
-import Link from "next/link"
+import Counter from "@/components/home/counter"
 
 export default function Home() {
   return (
     <div>
-      <Link href="/about">go to</Link> Home
+      Home
+      <Counter />
     </div>
   )
 }
