@@ -1,5 +1,9 @@
+import Link from "next/link"
+
 export default function Home() {
   return (
-    <div>Home</div>
-  );
+    <div>
+      <Link href="/about">go to</Link> Home
+    </div>
+  )
 }
